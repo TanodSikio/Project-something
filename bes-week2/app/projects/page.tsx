@@ -8,7 +8,6 @@ export default async function ProjectsPage() {
     <main className="px-16 py-8">
       <h1 className="text-4xl font-bold mb-8">Projects</h1>
       <ProjectSearch projects={projects} />
-      <ProjectList projects={projects} />
     </main>
   )
 }
